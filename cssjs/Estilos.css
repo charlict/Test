@@ -435,7 +435,7 @@ body {
             text-align: left;
             overflow: hidden;
             max-width: 40%;
-            max-height: 40%;
+            /* max-height: 40%; */
             display: inline-block;
             margin-left: 30%;
         }        
@@ -456,9 +456,12 @@ body {
             /* padding-left: 0px;
             text-indent:-5.5em; */
             overflow: hidden;
-                display: inline-block;
+            display: inline-block;
         }
-        
+
+        .ProductItem h2{
+            margin-bottom: 0;
+        }
 
     }
  
